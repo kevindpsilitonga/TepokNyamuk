@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAAE3BC195B048A00DA6222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3BB195B048A00DA6222 /* Foundation.framework */; };
+		0AAAE3BE195B048A00DA6222 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3BD195B048A00DA6222 /* CoreGraphics.framework */; };
+		0AAAE3C0195B048A00DA6222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3BF195B048A00DA6222 /* UIKit.framework */; };
+		0AAAE3C2195B048A00DA6222 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3C1195B048A00DA6222 /* SpriteKit.framework */; };
+		0AAAE3C8195B048A00DA6222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AAAE3C6195B048A00DA6222 /* InfoPlist.strings */; };
+		0AAAE3CA195B048A00DA6222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAE3C9195B048A00DA6222 /* main.m */; };
+		0AAAE3CE195B048A00DA6222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAE3CD195B048A00DA6222 /* AppDelegate.m */; };
+		0AAAE3D1195B048A00DA6222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AAAE3CF195B048A00DA6222 /* Main.storyboard */; };
+		0AAAE3D4195B048A00DA6222 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAE3D3195B048A00DA6222 /* ViewController.m */; };
+		0AAAE3D7195B048A00DA6222 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAE3D6195B048A00DA6222 /* MyScene.m */; };
+		0AAAE3D9195B048A00DA6222 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AAAE3D8195B048A00DA6222 /* Spaceship.png */; };
+		0AAAE3DB195B048A00DA6222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAAE3DA195B048A00DA6222 /* Images.xcassets */; };
+		0AAAE3E2195B048A00DA6222 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3E1195B048A00DA6222 /* XCTest.framework */; };
+		0AAAE3E3195B048A00DA6222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3BB195B048A00DA6222 /* Foundation.framework */; };
+		0AAAE3E4195B048A00DA6222 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAAE3BF195B048A00DA6222 /* UIKit.framework */; };
+		0AAAE3EC195B048A00DA6222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AAAE3EA195B048A00DA6222 /* InfoPlist.strings */; };
+		0AAAE3EE195B048A00DA6222 /* Tepok_NyamukTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAAE3ED195B048A00DA6222 /* Tepok_NyamukTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AAAE3E5195B048A00DA6222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AAAE3B0195B048A00DA6222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AAAE3B7195B048A00DA6222;
+			remoteInfo = "Tepok Nyamuk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAAE3B8195B048A00DA6222 /* Tepok Nyamuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tepok Nyamuk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAAE3BB195B048A00DA6222 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AAAE3BD195B048A00DA6222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AAAE3BF195B048A00DA6222 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AAAE3C1195B048A00DA6222 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0AAAE3C5195B048A00DA6222 /* Tepok Nyamuk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tepok Nyamuk-Info.plist"; sourceTree = "<group>"; };
+		0AAAE3C7195B048A00DA6222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AAAE3C9195B048A00DA6222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AAAE3CB195B048A00DA6222 /* Tepok Nyamuk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tepok Nyamuk-Prefix.pch"; sourceTree = "<group>"; };
+		0AAAE3CC195B048A00DA6222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AAAE3CD195B048A00DA6222 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AAAE3D0195B048A00DA6222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AAAE3D2195B048A00DA6222 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AAAE3D3195B048A00DA6222 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AAAE3D5195B048A00DA6222 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		0AAAE3D6195B048A00DA6222 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		0AAAE3D8195B048A00DA6222 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		0AAAE3DA195B048A00DA6222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AAAE3E0195B048A00DA6222 /* Tepok NyamukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tepok NyamukTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAAE3E1195B048A00DA6222 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0AAAE3E9195B048A00DA6222 /* Tepok NyamukTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tepok NyamukTests-Info.plist"; sourceTree = "<group>"; };
+		0AAAE3EB195B048A00DA6222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AAAE3ED195B048A00DA6222 /* Tepok_NyamukTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tepok_NyamukTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AAAE3B5195B048A00DA6222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3BE195B048A00DA6222 /* CoreGraphics.framework in Frameworks */,
+				0AAAE3C0195B048A00DA6222 /* UIKit.framework in Frameworks */,
+				0AAAE3C2195B048A00DA6222 /* SpriteKit.framework in Frameworks */,
+				0AAAE3BC195B048A00DA6222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAAE3DD195B048A00DA6222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3E2195B048A00DA6222 /* XCTest.framework in Frameworks */,
+				0AAAE3E4195B048A00DA6222 /* UIKit.framework in Frameworks */,
+				0AAAE3E3195B048A00DA6222 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAAE3AF195B048A00DA6222 = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3C3195B048A00DA6222 /* Tepok Nyamuk */,
+				0AAAE3E7195B048A00DA6222 /* Tepok NyamukTests */,
+				0AAAE3BA195B048A00DA6222 /* Frameworks */,
+				0AAAE3B9195B048A00DA6222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AAAE3B9195B048A00DA6222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3B8195B048A00DA6222 /* Tepok Nyamuk.app */,
+				0AAAE3E0195B048A00DA6222 /* Tepok NyamukTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AAAE3BA195B048A00DA6222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3BB195B048A00DA6222 /* Foundation.framework */,
+				0AAAE3BD195B048A00DA6222 /* CoreGraphics.framework */,
+				0AAAE3BF195B048A00DA6222 /* UIKit.framework */,
+				0AAAE3C1195B048A00DA6222 /* SpriteKit.framework */,
+				0AAAE3E1195B048A00DA6222 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AAAE3C3195B048A00DA6222 /* Tepok Nyamuk */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3CC195B048A00DA6222 /* AppDelegate.h */,
+				0AAAE3CD195B048A00DA6222 /* AppDelegate.m */,
+				0AAAE3CF195B048A00DA6222 /* Main.storyboard */,
+				0AAAE3D2195B048A00DA6222 /* ViewController.h */,
+				0AAAE3D3195B048A00DA6222 /* ViewController.m */,
+				0AAAE3D5195B048A00DA6222 /* MyScene.h */,
+				0AAAE3D6195B048A00DA6222 /* MyScene.m */,
+				0AAAE3D8195B048A00DA6222 /* Spaceship.png */,
+				0AAAE3DA195B048A00DA6222 /* Images.xcassets */,
+				0AAAE3C4195B048A00DA6222 /* Supporting Files */,
+			);
+			path = "Tepok Nyamuk";
+			sourceTree = "<group>";
+		};
+		0AAAE3C4195B048A00DA6222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3C5195B048A00DA6222 /* Tepok Nyamuk-Info.plist */,
+				0AAAE3C6195B048A00DA6222 /* InfoPlist.strings */,
+				0AAAE3C9195B048A00DA6222 /* main.m */,
+				0AAAE3CB195B048A00DA6222 /* Tepok Nyamuk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AAAE3E7195B048A00DA6222 /* Tepok NyamukTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3ED195B048A00DA6222 /* Tepok_NyamukTests.m */,
+				0AAAE3E8195B048A00DA6222 /* Supporting Files */,
+			);
+			path = "Tepok NyamukTests";
+			sourceTree = "<group>";
+		};
+		0AAAE3E8195B048A00DA6222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAAE3E9195B048A00DA6222 /* Tepok NyamukTests-Info.plist */,
+				0AAAE3EA195B048A00DA6222 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAAE3B7195B048A00DA6222 /* Tepok Nyamuk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAAE3F1195B048A00DA6222 /* Build configuration list for PBXNativeTarget "Tepok Nyamuk" */;
+			buildPhases = (
+				0AAAE3B4195B048A00DA6222 /* Sources */,
+				0AAAE3B5195B048A00DA6222 /* Frameworks */,
+				0AAAE3B6195B048A00DA6222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tepok Nyamuk";
+			productName = "Tepok Nyamuk";
+			productReference = 0AAAE3B8195B048A00DA6222 /* Tepok Nyamuk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AAAE3DF195B048A00DA6222 /* Tepok NyamukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAAE3F4195B048A00DA6222 /* Build configuration list for PBXNativeTarget "Tepok NyamukTests" */;
+			buildPhases = (
+				0AAAE3DC195B048A00DA6222 /* Sources */,
+				0AAAE3DD195B048A00DA6222 /* Frameworks */,
+				0AAAE3DE195B048A00DA6222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AAAE3E6195B048A00DA6222 /* PBXTargetDependency */,
+			);
+			name = "Tepok NyamukTests";
+			productName = "Tepok NyamukTests";
+			productReference = 0AAAE3E0195B048A00DA6222 /* Tepok NyamukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AAAE3B0195B048A00DA6222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0AAAE3DF195B048A00DA6222 = {
+						TestTargetID = 0AAAE3B7195B048A00DA6222;
+					};
+				};
+			};
+			buildConfigurationList = 0AAAE3B3195B048A00DA6222 /* Build configuration list for PBXProject "Tepok Nyamuk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AAAE3AF195B048A00DA6222;
+			productRefGroup = 0AAAE3B9195B048A00DA6222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAAE3B7195B048A00DA6222 /* Tepok Nyamuk */,
+				0AAAE3DF195B048A00DA6222 /* Tepok NyamukTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AAAE3B6195B048A00DA6222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3C8195B048A00DA6222 /* InfoPlist.strings in Resources */,
+				0AAAE3DB195B048A00DA6222 /* Images.xcassets in Resources */,
+				0AAAE3D9195B048A00DA6222 /* Spaceship.png in Resources */,
+				0AAAE3D1195B048A00DA6222 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAAE3DE195B048A00DA6222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3EC195B048A00DA6222 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAAE3B4195B048A00DA6222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3D7195B048A00DA6222 /* MyScene.m in Sources */,
+				0AAAE3D4195B048A00DA6222 /* ViewController.m in Sources */,
+				0AAAE3CE195B048A00DA6222 /* AppDelegate.m in Sources */,
+				0AAAE3CA195B048A00DA6222 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AAAE3DC195B048A00DA6222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAAE3EE195B048A00DA6222 /* Tepok_NyamukTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AAAE3E6195B048A00DA6222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AAAE3B7195B048A00DA6222 /* Tepok Nyamuk */;
+			targetProxy = 0AAAE3E5195B048A00DA6222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AAAE3C6195B048A00DA6222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAAE3C7195B048A00DA6222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AAAE3CF195B048A00DA6222 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAAE3D0195B048A00DA6222 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AAAE3EA195B048A00DA6222 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAAE3EB195B048A00DA6222 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AAAE3EF195B048A00DA6222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AAAE3F0195B048A00DA6222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AAAE3F2195B048A00DA6222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tepok Nyamuk/Tepok Nyamuk-Prefix.pch";
+				INFOPLIST_FILE = "Tepok Nyamuk/Tepok Nyamuk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AAAE3F3195B048A00DA6222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tepok Nyamuk/Tepok Nyamuk-Prefix.pch";
+				INFOPLIST_FILE = "Tepok Nyamuk/Tepok Nyamuk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AAAE3F5195B048A00DA6222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tepok Nyamuk.app/Tepok Nyamuk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tepok Nyamuk/Tepok Nyamuk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tepok NyamukTests/Tepok NyamukTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0AAAE3F6195B048A00DA6222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tepok Nyamuk.app/Tepok Nyamuk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tepok Nyamuk/Tepok Nyamuk-Prefix.pch";
+				INFOPLIST_FILE = "Tepok NyamukTests/Tepok NyamukTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAAE3B3195B048A00DA6222 /* Build configuration list for PBXProject "Tepok Nyamuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAAE3EF195B048A00DA6222 /* Debug */,
+				0AAAE3F0195B048A00DA6222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAAE3F1195B048A00DA6222 /* Build configuration list for PBXNativeTarget "Tepok Nyamuk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAAE3F2195B048A00DA6222 /* Debug */,
+				0AAAE3F3195B048A00DA6222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AAAE3F4195B048A00DA6222 /* Build configuration list for PBXNativeTarget "Tepok NyamukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAAE3F5195B048A00DA6222 /* Debug */,
+				0AAAE3F6195B048A00DA6222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AAAE3B0195B048A00DA6222 /* Project object */;
+}
